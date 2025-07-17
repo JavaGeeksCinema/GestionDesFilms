@@ -19,7 +19,7 @@ import java.util.Map;
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @AllArgsConstructor
-@RequestMapping("/photos")
+@RequestMapping("/filmservice/photos")
 public class PhotoController {
     MovieService movieService;
     PhotoService photoService;

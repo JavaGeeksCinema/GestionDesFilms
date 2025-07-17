@@ -11,7 +11,7 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @AllArgsConstructor
-@RequestMapping("/genres")
+@RequestMapping("/filmservice/genres")
 public class GenreController {
     GenreService genreService;
     @PostMapping("/add")

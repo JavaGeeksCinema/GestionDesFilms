@@ -19,7 +19,7 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @AllArgsConstructor
-@RequestMapping("/movies")
+@RequestMapping("/filmservice/movies")
 public class MovieController {
 
 
