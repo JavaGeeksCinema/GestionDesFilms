@@ -16,7 +16,6 @@ import java.io.IOException;
 import java.net.URLConnection;
 import java.util.Map;
 
-@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @AllArgsConstructor
 @RequestMapping("/filmservice/photos")

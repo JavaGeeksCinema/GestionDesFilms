@@ -8,7 +8,6 @@ import tn.esprit.movies.services.GenreService;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @AllArgsConstructor
 @RequestMapping("/filmservice/genres")
